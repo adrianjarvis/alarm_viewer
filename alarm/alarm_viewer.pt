@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Alarm Viewer</title>
+</head>
+<body>
+    <!-- DataTables CSS -->
+    <link rel="stylesheet" type="text/css" href="${static_url}DataTables-1.10.9/css/jquery.dataTables.css">
+
+    <!-- jQuery -->
+    <script type="text/javascript" charset="utf8" src="${static_url}jQuery-2.1.4/jquery-2.1.4.js" ></script>
+    <!-- DataTables -->
+    <script type="text/javascript" charset="utf8" src="${static_url}DataTables-1.10.9/js/jquery.dataTables.js"></script>
+    <script src="${static_url}alarm_viewer.js"></script>
+    <table id = "alarmtable">
+        <thead><tr><th>Time</th><th>Name</th><th>Severity</th><th>Description</th></tr></thead>
+    </table>
+</body>
+</html>
